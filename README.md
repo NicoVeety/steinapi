@@ -18,7 +18,7 @@ pip3 install "httpx[http2]"
 ```
 
 ## Einrichtung
-1. Voarb: Zunächst werden je ein Nutzer in Stein.APP und Divera 24/7 benötigt.
+1. Vorab: Zunächst werden je ein Nutzer in Stein.APP und Divera 24/7 benötigt.
     1. Divera 24/7: Im Menüpunkt Verwaltung -> Schnittstellen -> System-Benutzer muss ein neuer System-Benutzer angelegt werden. Der dabei generierte Accesskey wird gleich benötigt.
     1. Stein.APP: Es wird ein "techuser" benötigt. Also einen neuen Nutzer mit dem Häckchen "Für Nutzung über API".
 1. Damit die Fahrzeuge in Stein denen in Divera 24/7 zugeordnet werden können, wird das Feld Kennzeichen genutzt. Daher müssen sowohl in Stein als auch in Divera 24/7 die Kennzeichen gepflegt und identisch sein. 
