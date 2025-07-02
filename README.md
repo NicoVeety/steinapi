@@ -25,7 +25,7 @@ pip3 install "httpx[http2]"
 1. Kopiere config.json.sample nach config.json
 1. Editieren von config.json
     1. Divera: Unter "accesskey" den vorher generierten Accesskey eintragen.
-    1. Stein: Hier den API KEy des angelegten Benutzers eintragen. Unter "buname" wird die ID der Organisationseinheit eingetragen. Dies ist der Name des OVs ohne Dienststellenkürzel. Also "671" für OV Siegburg.
+    1. Stein: Hier den API Key des angelegten Benutzers eintragen. Unter "buname" wird die ID der Organisationseinheit eingetragen. Dies ist der Name des OVs ohne Dienststellenkürzel. Also "671" für OV Siegburg. Die ID des eigenen OV kann man leicht über die URL auf der Stein Webseite in Erfahrung bringen, wenn man zur eigenen Organisationseinheit navigiert. Beim Beispiel OV Siegburg wäre dies https://stein.app/dashboard/bu/671/
 1. Anschließend das script divera.py aufrufen. 
 
 ## Docker
